@@ -54,6 +54,10 @@
         width: 80%;
     }
 
+    button.tablet-btn {
+        display: none;
+    }
+
     footer {
         height: 500px;
     }
@@ -71,3 +75,71 @@
 
 
 /* Responsive for mobile devices end */
+
+
+/* Responsive for Tablet devices end */
+
+@media screen and (min-width: 577px) and (max-width: 768px) { 
+    .hero-area {
+        width: 90%;
+        height: 500px;
+    }  
+    .left-side {
+        margin-left: 50px;
+    }
+
+    .football-area {
+        flex-direction: column;
+    }
+
+    .football-info {
+        background-color: #fff;
+        display: flex;
+    }   
+
+    .match-details {
+        height: 50px;
+        border: 5px solid #E8E8E8;
+        border-radius: 10px;
+        margin-left: 140px;
+    }
+
+    .match-details a{
+       width: 400px;
+    }
+
+    .transfer-market {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    #hide {
+        display: none;
+    }
+
+    .footer-menu {
+        flex-wrap: wrap;
+    }
+
+    .footer-menu a {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .tablet-btn  {
+        width: 130px; 
+        height: 50px;
+        color: #fff;
+        background-color: red;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+
+    
+}
+
+/* Responsive for Tablet devices end */

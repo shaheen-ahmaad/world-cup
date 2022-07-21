@@ -71,6 +71,7 @@ body {
     margin-top: 25px;
     margin-left: 45px;
 }
+
 .match-details a{
     color: black;
     text-align: center;
@@ -126,6 +127,11 @@ body {
 .gallery-icons
 .fa-comment-dots {
     margin-left: 10px;
+}
+
+button.tablet-btn {
+    display: none;
+    display: block;
 }
 
 /* football blog css end */
