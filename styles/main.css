@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* hero area css start  */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-area {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #161616;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-top: 70px;
+}
+
+.hero-title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.hero-text {
+    color: gray;
+    font-weight: 400;
+}
+
+.hero-btn {
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background-color: #DD0000;
+    border: none;
+}
+
+.fa-greater-than {
+    margin-left: 10px;
+}
+/* hero area css end  */
+
+/* football blog css start  */
+
+.football-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.football-info {
+    width: 250px;
+    height: 200px;
+    background-color: #161616;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.match-details {
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+.match-details a{
+    color: black;
+    text-align: center;
+    text-decoration: none;    
+}
+
+#bg-special {
+    background-color:#DD0000
+}
+
+#bg-special > a {
+    color: white;
+    margin-top: 10px;
+}
+
+
+.transfer-market {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.transfer-galleries {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.transfer-banner img {
+    width: 100%;
+    height: 150px;
+
+}
+
+
+.gallery-title {
+    color: gray;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #E8E8E8;
+    margin-left: 20px;
+}
+
+
+.gallery-icons {
+    color: gray;
+    margin-left: 20px;
+}
+
+.gallery-text {
+    margin-left: 20px;
+}
+.gallery-icons
+.fa-comment-dots {
+    margin-left: 10px;
+}
+
+/* football blog css end */
+
+/* footer css start */
+
+footer{
+    height: 300px;
+    background-color: #161616;
+    margin-top: 100px;
+}
+
+.footer-section {
+    display: grid;
+}
+
+.footer-info {
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+hr {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu a {
+    color: gray;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+/* footer css end */
